@@ -25,7 +25,7 @@ void input()
 
     for (int i = 0; 1 < n; i++)
     {
-        cout << "Data ke - " << (i + 1) << " : ";
+        cout << "Data ke - " << (i + 1) << ": ";
         cin >> arr [i];
     }
 }
@@ -46,5 +46,13 @@ void bubbleSortArray()
             }
         }
         pass += 1; //step 4
-    } while;
+
+        cout << "\nPass " << pass - 1 << ": ";
+        for (int k = 0; k < n; k++)
+        {
+            cout << arr[k] << " "; //menampilkan data
+        }
+        cout << endl;
+
+    } while(pass <= n - 1); //step 5
 }
