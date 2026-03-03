@@ -25,6 +25,7 @@ void input()
 
     for (int i = 0; 1 < n; i++)
     {
-        
+        cout << "Data ke - " << (i + 1) << " : ";
+        cin >> arr [i];
     }
 }
