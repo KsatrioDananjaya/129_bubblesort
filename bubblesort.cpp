@@ -10,7 +10,8 @@ void input()
     int d;
     while (true)
     {
-        
+        cout <<"Masukan banyaknya elemen pada array: ";
+        cin >> n;
     }
 
 }
